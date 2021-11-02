@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[FlightDetails]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[FlightDetails].[Departure Time] is being dropped, data loss could occur.
+       The column [dbo].[FlightDetails].[Total] is being dropped, data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[FlightDetails] (Table)
+
+** Supporting actions
+
+The column [dbo].[FlightDetails].[Departure Time] is being dropped, data loss could occur.
+The column [dbo].[FlightDetails].[Total] is being dropped, data loss could occur.
+

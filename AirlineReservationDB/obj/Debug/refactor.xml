@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="eaab6b9f-eff5-4dfb-a955-00250f135397" ChangeDateTime="11/27/2020 13:49:10" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Carrier].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Carrier]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CArrier_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="176525bb-f732-424a-9764-c2fafba18822" ChangeDateTime="11/27/2020 13:49:15" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Carrier].[CArrier_ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Carrier]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Carrier_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="73e4acee-f422-470a-b2b3-878e7e1bfbe8" ChangeDateTime="11/27/2020 16:49:43" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[FlightDetails].[AirplaneNAme]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FlightDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Airplane Nme" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c2058d68-fc24-40a8-870c-95233a441a6a" ChangeDateTime="11/27/2020 16:50:27" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[FlightDetails].[Airplane Nme]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FlightDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Airplane Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8fb826a6-c2f6-45d6-802c-2ef16f1bc113" ChangeDateTime="11/27/2020 16:51:21" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[BookingDetails].[BookingId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BookingDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Booking_ ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1f074a31-bad8-4a63-8728-1f9339edddd2" ChangeDateTime="11/27/2020 16:51:27" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[BookingDetails].[CustomerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BookingDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Customer_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="af11b40b-ec73-4efa-afc1-7ef3d7574b54" ChangeDateTime="11/27/2020 16:51:54" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[BookingDetails].[FlightId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BookingDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Carrier_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c13d426a-5db1-49b0-83ce-3a4cb42f1c6a" ChangeDateTime="11/27/2020 16:53:01" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[PassengerDetails].[CustomerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PassengerDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Customer_ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f6ea67ac-abf8-47e9-ab88-f59dd1342e78" ChangeDateTime="11/27/2020 16:54:20" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[FlightDetails].[FlightId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[FlightDetails]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Flight_ID" />
+  </Operation>
+</Operations>
